@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Lynkspro.com</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&display=swap" rel="stylesheet">
+    <script>
+        let anchor1 = document.getElementById("anch");
+        let check = document.getElementById("check");
+
+        anchor1.addEventListener("click", () => {
+            check.checked = check.checked == true ? false : true;
+        });
+
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="head">
+            <nav class="navigation" id="navbar">
+                <img src="logo.png" alt="LOGO">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-bars" id="hamburger"></i>
+                </label>
+                <div class="anchor" id="anch">
+                    <a href="#home">HOME</a>
+                    <a href="#services">SERVICES</a>
+                    <a href="#about">ABOUT US</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+
+            </nav>
+        </header>
+
+        <a id="home"></a>
+        <section class="first">
+            <h1 id="firsthead1">MAKING</h1>
+            <h1 id="firsthead2">CONNECTIONS</h1>
+            <h1 id="firsthead3">DELIVERING</h1>
+            <h1 id="firsthead4">RESULTS</h1>
+            <p id="firstp">Linking professionals with opportunities</p>
+        </section>
+
+        <a id="services"></a>
+        <section class="second">
+            <h1 id="o-css">O</h1>
+            <h1 id="ur-css">UR</h1>
+            <h1 class="secondhead">SERVICES</h1>
+            <ul>
+                <li><a href="#job">JOB SEARCH FOR SEEKERS</a></li>
+                <li><a href="#recruit">RECRUITMENT FOR EMPLOYERS</a></li>
+                <li><a href="#pro">PROFESSIONAL DEVELOPMENT</a></li>
+                <li><a href="#resume">RESUME REVIEW</a></li>
+            </ul>
+        </section>
+
+        <a id="about"></a>
+        <section class="third">
+            <h1 id="w-css">W</h1>
+            <h1 id="ho-css">HO</h1>
+            <h1 class="thirdhead">WE ARE</h1>
+            <p id="thirdp">Our team comes from the Canadian financial industry landscape, with collective experience of
+                over 40 years. As professionals, we have navigated through the recruitment struggles, career development
+                and professional networking. With such expertise, and a strive to help other professionals like us,
+                Lynkspro Consulting has a single minded focus of connecting people to the right organizations. Our
+                professional links make the perfect links. </p>
+        </section>
+
+        <a id="job"></a>
+        <section class="fourth">
+            <h1 id="j-css">J</h1>
+            <h1 id="ob-css">ob</h1>
+            <h1 class="fourthhead">Search</h1>
+            <p id="fourthp1">In just over 2 years of existence, we have placed professionals across the big 5 banks. And
+                that's not all, we offer customized services to all our candidates, providing them resume reviews, mock
+                interviews and guidance for their professional journey. We know what organizations want and how to mold
+                candidates to fit their needs!</p>
+            <p id="fourthp2">Contact us today to kick-start your career! </p>
+        </section>
+        <!-- <div class="circles">
+            <svg height="35" width="20">
+                <circle cx="12" cy="12" r="5" />
+                 <h5>HOME</h5> 
+            </svg>
+            <svg height="35" width="20">
+                <circle cx="12" cy="12" r="5" />
+            </svg>
+             <H5>Our Services</H5> 
+            <svg height="35" width="20">
+                <circle cx="12" cy="12" r="5" />
+            </svg>
+             <h5>ABOUT US</h5>  
+            <svg height="35" width="20">
+                <circle cx="12" cy="12" r="5" />
+            </svg>
+             <h5>Job Search</h5>  
+            <svg height="35" width="20">
+                <circle cx="12" cy="12" r="5" />
+            </svg>
+            <svg height="35" width="20">
+                <circle cx="12" cy="12" r="5" />
+            </svg>
+            <svg height="35" width="20">
+                <circle cx="12" cy="12" r="5" />
+            </svg>
+            <svg height="35" width="20">
+                <circle cx="12" cy="12" r="5" />
+            </svg>
+        </div> -->
+
+        <a id="recruit"></a>
+        <section class="fifth">
+            <h1 id="r-css">R</h1>
+            <h1 class="fifthhead">ecruitment</h1>
+            <p id="fifthp1">We have a pool of over 100 candidates with expertise ranging from technology to business
+                analysis, testing to project management. All you have to do is let us know what you are looking for, and
+                we will take care of the rest.</p>
+            <p id="fifthp2">Contact us today to find the right professional! </p>
+        </section>
+
+        <a id="pro"></a>
+        <section class="sixth">
+            <h1 id="p-css">P</h1>
+            <h1 id="fess-css">rofessional</h1>
+            <h1 class="sixthhead">Development</h1>
+            <p id="sixthp1">Have you joined the workforce recently? Are you a newcomer? Did you just graduate?</p>
+            <p id="sixthp2">We know how intimidating job search can be. That is why we have a curated teams of
+                professional coaches who will help you every step of the way. We offer the following services:</p>
+            <ul>
+                <li>Career growth coaching</li>
+                <li>Learn how to network</li>
+                <li>Interview preparation</li>
+            </ul>
+        </section>
+
+        <a id="resume"></a>
+        <section class="seventh">
+            <h1 id="r2-css">R</h1>
+            <h1 id="sume-css">esume</h1>
+            <h1 class="seventhhead">Review</h1>
+            <p id="seventhp1">Your resume is the first impression you leave on your employer. That is why we give it
+                such importance. It has to be unique, informative and most importantly answer the question "why you?".
+                Be it a technical or a management role, we have designed hundreds of resumes ensuring that our
+                candidates leave the best impressions</p>
+            <p id="seventhp2">What are you waiting for? Get in touch with us today to leverage our resume building
+                expertise. </p>
+        </section>
+
+        <a id="contact"></a>
+        <section class="contact">
+            <h1 id="g-css">G</h1>
+            <h1 id="et-css">ET</h1>
+            <h1 id="in-css">IN</h1>
+            <h1 class="contacthead">TOUCH</h1>
+            <div class="last">
+                <form action="mailto:ankit1990garg@gmail.com" method="POST" enctype="text/plain">
+                    <label for="name">Enter Your Name</label>
+                    <input type="text" name="name" placeholder="Name" required>
+                    <label for="email">Enter Your E-mail</label>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <label for="subject">Enter Your Subject</label>
+                    <input type="text" name="subject" placeholder="Subject" id="subject">
+                    <label for="message">Enter your Message</label>
+                    <textarea name="message" id="" cols="56" rows="10" placeholder="Message"></textarea>
+                    <button class="btn">Submit</button>
+                
+                </form>
+                <div class="para">
+                    <p>Contact us today for any of our services.</p>
+                    <p>We can't wait to hear from you!</p>
+                    <span id="span1"><img src="email-48.jpg" alt="email"><a>contact@lynkspro.com</a></span>
+                    <br>
+                    <br>
+                    <span id="span2"><img src="phone.png" alt="call"><a>647-550-9515</a></span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="foot">
+            <div class="social">
+                <p id="socialp">Be a SocialLight and Follow Us:</p>
+                <a href="#" class="fa fa-facebook fa-3x"></a>
+                <a href="#" class="fa fa-twitter fa-3x"></a>
+                <a href="#" class="fa fa-instagram fa-3x"></a>
+                <a href="#" class="fa fa-youtube fa-3x"></a>
+                <a href="#" class="fa fa-pinterest fa-3x"></a>
+            </div>
+            <div class="privacy">
+                <p>&copy; 2023 by SocialLight</p>
+                <span>All Rights Reserved</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

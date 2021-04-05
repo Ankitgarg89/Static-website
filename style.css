@@ -1,0 +1,1694 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container{
+    position: relative;
+    height: 100%;
+}
+
+.container::before
+{
+    content: "";
+    background: url(bg.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.navigation .icon
+{
+    display: none;
+}
+
+#navbar
+{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+#navbar::before
+{
+    content: "";
+    background-color: rgb(175, 174, 174);
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar img
+{
+    width: 100px;
+    height: 100px;
+    padding: 12px 30px;
+    margin-left: 50px;
+}
+
+#hamburger{
+    background: transparent;
+    color: rgb(248, 246, 246);
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#hamburger:focus{
+    outline: none;
+}
+
+.anchor{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+.anchor a
+{
+    text-decoration: none;
+    color:rgb(107, 106, 106);
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.anchor a:hover
+{
+    color:black;
+    background-color: rgb(214, 210, 210);
+    padding: 15px;
+}
+#check{
+    display: none;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* FIRST SECTION */
+.first
+{
+    position: relative;
+    height: 740px;
+}
+.first::before
+{
+    content: "";
+    background-color: rgb(250, 252, 251);
+    position: absolute;
+    top:128px;
+    left:220px;
+    right:200px;
+    bottom:0px;
+    z-index: -1;
+    opacity: 0.7;
+    min-width: 800px;
+    word-wrap: break-word;
+}
+#firsthead1{
+    color: grey;
+    font-size: 100px;
+    margin-left: 220px;
+    position: absolute;
+    top:200px; 
+}
+#firsthead2{
+    color:grey;
+    font-size: 100px;
+    margin-left: 220px;
+    position: absolute;
+    top:290px; 
+}
+#firsthead3{
+    color:rgb(163, 37, 37);
+    font-size: 100px;
+    margin-left: 220px;
+    position: absolute;
+    top:375px; 
+}
+#firsthead4{
+    color:rgb(163, 37, 37);
+    font-size: 100px;
+    margin-left: 220px;
+    position: absolute;
+    top:460px; 
+}
+#firstp{
+    color: grey;
+    font-size: 30px;
+    margin-left: 200px;
+    font-weight: bold;
+    padding: 30px;
+    position: absolute;
+    top:560px; 
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* SECOND SECTION */
+.second{
+    position: relative;
+    min-height: 400px;
+}
+.second::before{
+    content: "";
+    background-color: rgb(66, 72, 77);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: -1;
+    min-width: 800px;
+    word-wrap: break-word;
+}
+
+#o-css{
+    display: inline-block;
+    color: white;
+    font-size: 80px;
+    left: 220px;
+    position: absolute;
+    top:70px;
+    border-top: 10px solid white;
+}
+#ur-css{
+    display: inline-block;
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    top:80px;
+    left: 278px;
+}
+
+.secondhead{
+    color: white;
+    font-size: 80px;
+    left: 220px;
+    position: absolute;
+    top:170px;
+}
+.second ul{
+    position: absolute;
+    right:140px;
+    top:70px;
+    /* animation: fade 2s;
+    animation-iteration-count: 1; */
+}
+/* @keyframes fade
+{
+    0%
+    {
+        right: 0px;
+        opacity: 0;
+        
+    }
+    100%
+    {
+        right: 140px;
+        opacity: 1;
+    }
+} */
+.second ul li{
+    padding: 12px;
+    list-style-type: none;
+    font-size: 20px;
+}
+.second ul li a{
+    color:white;
+    font-weight: bold;
+    border-left: 6px solid rgb(255, 196, 0);
+    padding-right: 35px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-style: italic;
+}
+.second ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* THIRD SECTION */
+.third
+{
+    position: relative;
+    min-height: 540px;
+}
+
+.third::before
+{
+    content: "";
+    background-color: rgb(214, 211, 211);
+    position: absolute;
+    top:50px;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: -1;
+    opacity: 0.7;
+    min-width: 800px;
+}
+
+.third::after
+{
+    content: "";
+    background-color: rgb(250, 252, 251);
+    position: absolute;
+    top:0;
+    left:220px;
+    right:200px;
+    bottom:0;
+    z-index: -1;
+    opacity: 0.7;
+    word-wrap: break-word;
+}
+
+#w-css
+{
+    display: inline-block;
+    color: black;
+    font-size: 80px;
+    left: 233px;
+    position: absolute;
+    top:120px;
+    border-top: 10px solid rgb(255, 196, 0);
+}
+
+#ho-css
+{
+    display: inline-block;
+    color: black;
+    font-size: 80px;
+    position: absolute;
+    top:130px;
+    left: 310px;
+}
+
+.thirdhead{
+    color: black;
+    font-size: 80px;
+    left: 240px;
+    position: absolute;
+    top:220px;
+}
+
+#thirdp
+{
+    color: rgb(49, 49, 49);
+    font-size: 1.3rem;
+    width: 47%;
+    position: absolute;
+    top: 350px;
+    left: 240px;
+    opacity: 0.8;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* FOURTH SECTION */
+.fourth
+{
+    position: relative;
+    min-height: 540px;
+}
+
+.fourth::before
+{
+    content: "";
+    background-color: rgb(247, 201, 201);
+    position: absolute;
+    top:50px;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: -1;
+    opacity: 0.9;
+    min-width: 800px;
+}
+
+.fourth::after
+{
+    content: "";
+    background-color: rgb(252, 250, 251);
+    position: absolute;
+    top:0;
+    left:220px;
+    right:200px;
+    bottom:0;
+    z-index: -1;
+    opacity: 0.7;
+    word-wrap: break-word;
+}
+
+#j-css
+{
+    display: inline-block;
+    color: black;
+    font-size: 80px;
+    left: 233px;
+    position: absolute;
+    top:120px;
+    border-top: 10px solid rgb(255, 196, 0);
+}
+
+#ob-css
+{
+    display: inline-block;
+    color: black;
+    font-size: 80px;
+    position: absolute;
+    top:130px;
+    left: 275px;
+}
+
+.fourthhead{
+    color: black;
+    font-size: 80px;
+    left: 385px;
+    position: absolute;
+    top:130px;
+}
+
+#fourthp1
+{
+    color: rgb(49, 49, 49);
+    font-size: 1.3rem;
+    width: 47%;
+    position: relative;
+    top: 250px;
+    left: 240px;
+    opacity: 0.8;
+}
+#fourthp2
+{
+    color: rgb(49, 49, 49);
+    font-size: 1.3rem;
+    width: 67%;
+    position: absolute;
+    top: 400px;
+    left: 240px;
+    opacity: 0.8;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* FIFTH SECTION */
+.fifth
+{
+    position: relative;
+    height: 540px;
+}
+
+.fifth::before
+{
+    content: "";
+    background: url(bg3.jpg) no-repeat center center/cover;
+    position: absolute;
+    top:50px;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 0;
+    opacity: 0.5;
+    min-width: 800px;
+}
+
+.fifth::after
+{
+    content: "";
+    background-color: rgb(252, 250, 251);
+    position: absolute;
+    top:0;
+    left:220px;
+    right:200px;
+    bottom:0;
+    z-index: -1;
+    opacity: 0.4;
+    word-wrap: break-word;
+}
+
+#r-css
+{
+    display: inline-block;
+    color: black;
+    font-size: 80px;
+    left: 233px;
+    position: absolute;
+    top:120px;
+    border-top: 10px solid rgb(255, 196, 0);
+}
+
+.fifthhead{
+    color: black;
+    font-size: 80px;
+    left: 287px;
+    position: absolute;
+    top:130px;
+}
+
+#fifthp1
+{
+    color: rgb(49, 49, 49);
+    font-size: 1.3rem;
+    width: 47%;
+    position: absolute;
+    top: 250px;
+    left: 240px;
+}
+#fifthp2
+{
+    color: rgb(49, 49, 49);
+    font-size: 1.3rem;
+    width: 67%;
+    position: absolute;
+    top: 350px;
+    left: 240px;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* SIXTH SECTION */
+.sixth
+{
+    position: relative;
+    min-height: 600px;
+}
+
+.sixth::before
+{
+    content: "";
+    background-color: rgb(189, 185, 185);
+    position: absolute;
+    top:50px;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity:1;
+    min-width: 800px;
+}
+
+.sixth::after
+{
+    content: "";
+    background-color: rgb(252, 250, 251);
+    position: absolute;
+    top:0;
+    left:220px;
+    right:200px;
+    bottom:0;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#p-css
+{
+    display: inline-block;
+    color: black;
+    font-size: 80px;
+    left: 233px;
+    position: absolute;
+    top:120px;
+    border-top: 10px solid rgb(255, 196, 0);
+}
+
+#fess-css
+{
+    display: inline-block;
+    color: black;
+    font-size: 80px;
+    left: 285px;
+    position: absolute;
+    top:130px;
+}
+
+.sixthhead{
+    color: black;
+    font-size: 80px;
+    left: 232px;
+    position: absolute;
+    top:210px;
+}
+
+#sixthp1
+{
+    color: rgb(49, 49, 49);
+    font-size: 1.3rem;
+    width: 57%;
+    position: absolute;
+    top: 330px;
+    left: 240px;
+    opacity: 0.8;
+}
+
+#sixthp2
+{
+    color: rgb(49, 49, 49);
+    font-size: 1.3rem;
+    width: 47%;
+    position: absolute;
+    top: 380px;
+    left: 240px;
+    opacity: 0.8;
+}
+
+.sixth ul
+{
+    position: absolute;
+    top:460px;
+    left:300px;
+    opacity: 0.7;
+}
+
+.sixth ul li
+{
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* SEVENTH SECTION */
+.seventh
+{
+    position: relative;
+    min-height: 500px;
+}
+
+.seventh::before
+{
+    content: "";
+    background-color: rgb(73, 29, 248);
+    position: absolute;
+    top:50px;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 0;
+    opacity: 0.7;
+    min-width: 800px;
+}
+
+.seventh::after
+{
+    content: "";
+    background-color: rgb(252, 250, 251);
+    position: absolute;
+    top:0;
+    left:220px;
+    right:200px;
+    bottom:0;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#r2-css
+{
+    display: inline-block;
+    color: white;
+    font-size: 80px;
+    left: 233px;
+    position: absolute;
+    top:120px;
+    border-top: 10px solid rgb(255, 196, 0);
+}
+
+#sume-css
+{
+    display: inline-block;
+    color: white;
+    font-size: 80px;
+    left: 292px;
+    position: absolute;
+    top:130px;
+}
+
+.seventhhead
+{
+    color: white;
+    font-size: 80px;
+    left: 570px;
+    position: absolute;
+    top:130px;
+}
+
+#seventhp1
+{
+    color: whitesmoke;
+    font-size: 1.3rem;
+    width: 47%;
+    position: absolute;
+    top: 250px;
+    left: 240px;
+    opacity: 0.6;
+}
+#seventhp2
+{
+    color: whitesmoke;
+    font-size: 1.3rem;
+    width: 47%;
+    position: absolute;
+    top: 400px;
+    left: 240px;
+    opacity: 0.6;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* CONTACT FORM */
+
+.contact
+{
+    background-color: white;
+    position: relative;
+    min-height: 900px;
+    color: black;
+}
+
+#g-css
+{
+    display: inline-block;
+    color: black;
+    font-size: 80px;
+    left: 203px;
+    position: absolute;
+    top:120px;
+    border-top: 10px solid rgb(255, 196, 0);
+}
+#et-css
+{
+    display: inline-block;
+    color: black;
+    font-size: 80px;
+    left: 265px;
+    position: absolute;
+    top:130px;
+}
+#in-css
+{
+    display: inline-block;
+    color: black;
+    font-size: 80px;
+    left: 390px;
+    position: absolute;
+    top:130px;
+}
+.contacthead
+{
+    color: black;
+    font-size: 80px;
+    left: 203px;
+    position: relative;
+    top:220px;
+}
+
+.last
+{
+    display: grid;
+    grid-gap: 150px;
+    grid-template-columns: 3fr 2fr;
+    position: absolute;
+    top:400px;
+}
+
+.last form
+{
+    display: table;
+    margin-left: 210px;
+}
+.last form label
+{
+    display: table-row;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+.last form input
+{
+    width: 397px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+.last form input:hover
+{
+    border: 2px solid rgb(148, 147, 147);
+}
+.last form textarea
+{
+    width: 397px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+.last form textarea:hover
+{
+    border: 2px solid rgb(148, 147, 147);
+}
+
+.btn
+{
+    background-color: rgb(255, 187, 0);
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    width: 152px;
+    height: 40px;
+    position: absolute;
+    top:380px;
+    left: 470px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover
+{
+    background-color: rgb(24, 23, 23);
+}
+
+.para p
+{
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+#span1 a
+{
+    padding: 12px;
+    font-weight: bold;
+}
+
+#span1 img
+{
+    padding-top: 5px;
+    position: relative;
+    top:5px;
+    width: 40px;
+    height: 35px;
+}
+
+#span2 a
+{
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+#span2 img
+{
+    padding-top: 5px;
+    position: relative;
+    top:10px;
+    left: 3px;
+    width: 40px;
+    height: 35px;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* FOOTER */
+
+.foot
+{
+   margin-top:20px;
+   margin-bottom: 0;
+   min-height: 200px;
+   background-color: rgb(31, 30, 30);
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+
+.privacy p
+{
+    color: white;
+    position: relative;
+    top:70px;
+    left: 50px;
+}
+
+.privacy span
+{
+    color: white;
+    position: relative;
+    top:80px;
+    left: 60px;
+}
+
+.social
+{
+   font-size: 0.6rem;
+   position: relative;
+   margin-top:50px;
+   left: 200px;
+}
+
+#socialp
+{
+    font-size: 1.1rem;
+    color: white;
+}
+
+.social a
+{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/*   CIRCLES   */
+/* 
+.circles
+{
+    position: absolute;
+    right: 30px;
+}
+svg
+{
+    stroke:white; 
+    stroke-width:2; 
+    fill:transparent;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    transition: 0.3s;
+}
+svg:hover
+{
+    fill: white;
+} */
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ......MEDIA QUERIES..... */
+
+@media (max-width:1150px)
+{
+    .sixth ul{
+        top:500px;
+    }
+    
+    .third{
+        height: 600px;
+    }
+    .seventh{
+        height: 600px;
+    }
+
+    #seventhp2, #fourthp2{
+        top:470px;
+    }
+    #fifthp2{
+        top:400px;
+        word-wrap: break-word;
+    }
+
+    .secondhead, #o-css{
+        left: 50px;
+    }
+    #ur-css{
+        left: 110px;
+    }
+}
+@media (max-width:1100px)
+{
+    #firsthead1, #firsthead2, #firsthead3, #firsthead4{
+        font-size: 80px;
+    }
+
+    .first::before{
+        left:100px;
+        right: 80px;
+    }
+
+    .last form{
+        margin-left: 80px;
+    }
+    .btn{
+        left:340px;
+    }
+
+    .third{
+        height: 600px;
+    }
+}
+
+@media (max-width:1000px)
+{
+    
+    #firstp{
+        margin-left:20px;
+    }
+
+    .third::after, .fourth::after, .sixth::after, .seventh::after{
+        right:100px;
+        left: 100px;
+    }
+
+    .second ul{
+        right: 0;
+    }
+}
+
+ @media (max-width:900px)
+{
+    #firsthead1, #firsthead2, #firsthead3, #firsthead4{
+        font-size: 70px;
+        margin-left:50px;
+    }
+
+    .first::before,.second::before,.third::before,.fourth::before,.fifth::before,.sixth::before,.seventh::before{
+        left:0px;
+        width: 100%;
+    }
+
+    .third{
+        height: 700px;
+    }
+    
+    #p-css,#r-css{
+        left:140px;
+    }
+    #fess-css,.fifthhead{
+        left:190px;
+    }
+    
+    .seventhhead{
+        left: 235px;
+        top:200px;
+    }
+    #seventhp1{
+        top:290px;
+    }
+    #seventhp2{
+        top:510px;
+    }
+    .last{
+        grid-gap: 50px;
+    }
+
+    .social{
+        left:40px;
+    }
+} 
+
+@media (max-width:850px)
+{
+    .anchor{
+        right: 20px;
+    }
+    #o-css, .secondhead{
+        font-size: 3.5rem;
+    }
+    #ur-css{
+        font-size: 3.5rem;
+        left: 94px;
+    }
+
+    .last form{
+        margin-left:5px;
+    }
+    .btn{
+        left:265px;
+    }
+    .para p{
+        line-height: 20px;
+        font-size: 0.9rem;
+    }
+    #span1 img, #span2 img{
+        width: 30px;
+        height: 25px;
+    }
+
+    #w-css{
+        left: 155px;
+    }
+    #ho-css{
+        left: 231px;
+    }
+    .thirdhead {
+        left: 160px;
+    }
+    #thirdp{
+        left: 170px;
+    }
+
+    #j-css, #r2-css, .seventhhead{
+        left: 130px;
+    }
+    #ob-css{
+        left: 173px;
+    }
+    #sume-css{
+        left:184px;
+    }
+    .fourthhead{
+        left: 280px;
+    }
+    #fourthp1, #fourthp2{
+        left: 170px;
+    }
+
+    #fifthp1, #fifthp2, #sixthp1, #sixthp2, .sixth ul, #seventhp1, #seventhp2{
+        left:170px;
+    }
+
+    .social{
+        right:50px;
+    }
+    .privacy p{
+        left:50px;
+    }
+    .privacy span{
+        left:60px;
+    }
+
+}
+
+@media (max-width:768px)
+{
+    #navbar img{
+        margin-left: 0px;
+        padding-left: 2px;
+    }
+    #o-css{
+       left:20px;
+    } 
+    #ur-css{
+    left:64px;
+    }
+    .secondhead{
+       left: 170px;
+       top:80px;
+    }
+    .second ul{
+       left:10px;
+       top:200px;
+    }
+
+    .third::after, .fourth::after, .fifth::after, .sixth::after, .seventh::after{
+        display: none;
+    }
+
+    #thirdp, #fourthp1, #fourthp2, #fifthp1, #fifthp2, #sixthp1, #sixthp2, #seventhp1, #seventhp2 {
+        left:20px;
+        width: 70%;
+    }
+
+    #w-css, #j-css, #r-css, #p-css, #r2-css, #g-css, .thirdhead, .sixthhead, .seventhhead, .contacthead{
+        left:20px;
+    }
+
+    #ho-css{
+        left:100px;
+    }
+    #ob-css{
+        left: 60px;
+    }
+    #fess-css{
+        left:70px;
+    }
+    #sume-css, .fifthhead{
+        left:75px;
+    }
+    #et-css{
+        left:82px;
+    }
+
+    #in-css{
+        left: 210px;
+    }
+
+    .fourthhead{
+        left: 180px;
+    }
+
+    .sixth ul{
+        left: 40px;
+    }
+
+    .third{
+        height: 600px;
+    }
+    .fifth{
+        height: 460px;
+    }
+
+    .last{
+        grid-gap: 0px;
+    }
+    .last form input{
+        width: 300px;
+    }
+    .last form textarea{
+        width: 300px;
+    }
+    .btn{
+        left: 165px;
+    }
+
+}
+
+@media (max-width:600px)
+{
+    #navbar a{
+        padding: 5px;
+    }
+
+    .first{
+        height: 500px;
+    }
+    #firsthead1, #firsthead2, #firsthead3, #firsthead4{
+        font-size: 60px;
+        margin-left:30px;
+    }
+    #firsthead1{
+        top:150px;
+    }
+    #firsthead2{
+        top:210px;
+    }
+    #firsthead3{
+        top:270px;
+    }
+    #firsthead4{
+        top:330px;
+    }
+    #firstp{
+        top:400px;
+        margin-left: 0px;
+        font-size: 1.5rem;
+    }
+
+    #thirdp, #fourthp1, #fourthp2, #fifthp1, #fifthp2, #sixthp1, #sixthp2, #seventhp1, #seventhp2{
+        width: 95%;
+        font-size: 1.3rem;
+    }
+
+    #p-css, #fess-css, .sixthhead{
+        font-size: 4.5rem;
+    }
+
+    .contact{
+        height: 1100px;
+    }
+    .last{
+        display: block;
+    }
+    #g-css{
+        left:100px;
+    }
+    #et-css{
+        left:160px;
+    }
+    #in-css{
+        left:280px;
+    }
+    .contacthead{
+        left: 95px;
+    }
+    .last form{
+        margin-left:90px;
+    }
+    .btn{
+        top: 390px;
+        left:255px;
+    }
+    .para {
+        position: absolute;
+        top:500px;
+        left: 80px;
+    }
+    
+    .social{
+        top:20px;
+        left: 120px;
+    }
+    .privacy p{
+        top:110px;
+        left: 0;
+    }
+    .privacy span{
+        top:120px;
+        left:10px;
+    }
+}
+
+@media (max-width:500px)
+{
+    #firsthead1, #firsthead2, #firsthead3, #firsthead4{
+        font-size: 50px;
+        margin-left:0px;
+    }
+    #firsthead1{
+        top:140px;
+    }
+    #firsthead2{
+        top:190px;
+    }
+    #firsthead3{
+        top:240px;
+    }
+    #firsthead4{
+        top:290px;
+    }
+    #firstp{
+        top:350px;
+        margin-left: -28px;
+        font-size: 1.3rem;
+    }
+
+
+    #o-css{
+        top:20px;
+        font-size: 3.5rem;
+    }
+    #ur-css{
+        top:30px;
+    }
+    .secondhead{
+        left: 20px;
+    }
+    .second ul li{
+        font-size: 1.1rem;
+    }
+
+
+    #w-css, #j-css, #r2-css{
+        top:75px;
+        font-size: 4rem;
+    }
+    #ho-css{
+        top:85px;
+        left: 84px;
+        font-size: 4rem;
+    }
+    .thirdhead{
+        font-size: 4rem;
+        top:150px;
+        left: 25px;
+    }
+    #thirdp{
+        top:250px;
+        font-size: 1.2rem;
+        width: 85%;
+    }
+
+
+    #ob-css{
+        top:85px;
+        left: 55px;
+        font-size: 4rem;
+    }
+    .fourthhead{
+        font-size: 4rem;
+        top:150px;
+        left: 20px;
+    }
+    #fourthp1{
+        font-size: 1.2rem;
+        width: 85%;
+    }
+    #fourthp2{
+        font-size: 1.2rem;
+        width: 85%;
+    }
+
+
+    #r-css{
+        top:75px;
+        left: 5px;
+        font-size: 3.7rem;
+    }
+    .fifthhead{
+        top:85px;
+        left: 50px;
+        font-size: 3.7rem;
+    }
+    #fifthp1{
+        font-size: 1.2rem;
+        width: 85%;
+        top:170px;
+    }
+    #fifthp2{
+        font-size: 1.2rem;
+        width: 85%;
+        top:350px;
+    }
+
+
+    #p-css{
+        top:75px;
+        left: 5px;
+        font-size: 3.7rem;
+    }
+    #fess-css{
+        top:87px;
+        left: 42px;
+        font-size: 3.7rem;
+    }
+    .sixthhead{
+        top:147px;
+        left: 3px;
+        font-size: 3.7rem;
+    }
+    #sixthp1{
+        font-size: 1.2rem;
+        width: 85%;
+        top:250px;
+    }
+    #sixthp2{
+        font-size: 1.2rem;
+        width: 85%;
+        top:330px;
+    }
+    .sixth ul{
+        top:470px;
+    }
+
+
+    .seventh{
+        height: 580px;
+    }
+    #sume-css{
+        top:87px;
+        left: 65px;
+        font-size: 3.8rem;
+    }
+    .seventhhead{
+        top:147px;
+        left: 20px;
+        font-size: 3.8rem;
+    }
+    #seventhp1{
+        font-size: 1.2rem;
+        width: 85%;
+        top:240px;
+    }
+    #seventhp2{
+        font-size: 1.2rem;
+        width: 85%;
+        top:465px;
+    }
+
+    #g-css{
+        left:50px;
+    }
+    #et-css{
+        left:110px;
+    }
+    #in-css{
+        left:230px;
+    }
+    .contacthead{
+        left: 45px;
+    }
+    .last form{
+        margin-left:37px;
+    }
+    .btn{
+        left:120px;
+    }
+    
+
+    .foot{
+        display:block;
+    }
+    .social{
+        left:90px;
+        top:20px;
+    }
+    .privacy p{
+        top:70px;
+        left: 120px;
+    }
+    .privacy span{
+        top:80px;
+        left: 130px;
+    }
+
+
+}
+@media screen and (max-width: 500px) {
+    .anchor{
+       position: fixed;
+       background-color: brown;
+       top:0;
+       left: -30%;
+       width: 30%;
+       height: 100vh;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content:center;
+       transition: all 0.5s;
+       opacity: 0.7;
+    }
+    .anchor a{
+        z-index: 10;
+        color: white;
+        font-size: 25px;
+        font-family: 'Big Shoulders Display', cursive;
+    }
+
+    #check:checked ~ .anchor{
+        left: 0;
+    }
+
+    #hamburger{
+        display: block;
+        position: absolute;
+        top:50px;
+        right: 50px;
+        cursor: pointer;
+    }
+
+    
+}
+
+@media (max-width:375px)
+{
+    .first{
+        height: 400px;
+    }
+    #firsthead1, #firsthead2, #firsthead3, #firsthead4{
+        font-size: 42px;
+        margin-left:0px;
+    }
+    #firsthead1{
+        top:130px;
+    }
+    #firsthead2{
+        top:170px;
+    }
+    #firsthead3{
+        top:210px;
+    }
+    #firsthead4{
+        top:250px;
+    }
+    #firstp{
+        top:300px;
+        margin-left: -28px;
+        font-size: 1.3rem;
+    }
+
+    #o-css{
+        top:20px;
+        font-size: 3rem;
+    }
+    #ur-css{
+        top:20px;
+        font-size: 3rem;
+        left: 57px;
+        border-top: 10px solid white;
+
+    }
+    .secondhead{
+        left: 20px;
+        font-size: 3rem;
+    }
+    .second ul{
+        top:180px;
+    }
+    .second ul li{
+        font-size: 1rem;
+    }
+
+
+    #w-css, #j-css, #r2-css{
+        top:75px;
+        font-size: 3rem;
+    }
+    #ho-css{
+        top:75px;
+        left: 65px;
+        font-size: 3rem;
+        border-top: 10px solid rgb(255, 196, 0);
+    }
+    .thirdhead{
+        font-size: 3rem;
+        top:130px;
+        left: 23px;
+    }
+    #thirdp{
+        top:200px;
+        font-size: 1.2rem;
+        width: 85%;
+    }
+
+
+    #ob-css{
+        top:75px;
+        left: 46px;
+        font-size: 3rem;
+        border-top: 10px solid rgb(255, 196, 0);
+    }
+    .fourthhead{
+        font-size: 3rem;
+        top:130px;
+        left: 17px;
+    }
+    #fourthp1{
+        top:200px;
+        font-size: 1.2rem;
+        width: 85%;
+    }
+    #fourthp2{
+        font-size: 1.2rem;
+        width: 85%;
+    }
+
+
+    #r-css{
+        top:75px;
+        left: 5px;
+        font-size: 3rem;
+    }
+    .fifthhead{
+        top:85px;
+        left: 38px;
+        font-size: 3rem;
+    }
+    #fifthp1{
+        font-size: 1.2rem;
+        width: 85%;
+        top:170px;
+    }
+    #fifthp2{
+        font-size: 1.2rem;
+        width: 85%;
+        top:350px;
+    }
+
+
+    #p-css{
+        top:75px;
+        left: 5px;
+        font-size: 3rem;
+    }
+    #fess-css{
+        top:87px;
+        left: 35px;
+        font-size: 3rem;
+    }
+    .sixthhead{
+        top:137px;
+        left: 3px;
+        font-size: 3rem;
+    }
+    #sixthp1{
+        font-size: 1.2rem;
+        width: 85%;
+        top:230px;
+    }
+    #sixthp2{
+        font-size: 1.2rem;
+        width: 85%;
+        top:330px;
+    }
+    .sixth ul{
+        top:480px;
+    }
+
+
+    .seventh{
+        height: 580px;
+    }
+    #sume-css{
+        top:87px;
+        left: 55px;
+        font-size: 3rem;
+    }
+    .seventhhead{
+        top:130px;
+        left: 20px;
+        font-size: 3rem;
+    }
+    #seventhp1{
+        font-size: 1.2rem;
+        width: 85%;
+        top:200px;
+    }
+    #seventhp2{
+        font-size: 1.2rem;
+        width: 85%;
+        top:475px;
+    }
+
+    #g-css{
+        left:27px;
+    }
+    #et-css{
+        top:120px;
+        left:87px;
+        border-top: 10px solid rgb(255, 196, 0);
+    }
+    #in-css{
+        left:206px;
+    }
+    .contacthead{
+        left: 17px;
+    }
+    .last form{
+        margin-left:15px;
+    }
+    .last form input{
+        width:270px;
+    }
+    .last form textarea{
+        width:270px;
+    }
+    .btn{
+        left:85px;
+    }
+
+    .para {
+        left: 20px;
+    }
+    
+
+    .foot{
+        display:block;
+    }
+    .social{
+        left:30px;
+        top:20px;
+    }
+    .privacy p{
+        top:70px;
+        left: 70px;
+    }
+    .privacy span{
+        top:80px;
+        left: 80px;
+    }
+
+}
